@@ -21,7 +21,7 @@ The phone will monitor the rotation in three directions as image, and if it exce
 
 手机会如图监测三个方向的旋转，如果超过一定数值则判断使用者拿起手机。
 
-<div align=center><img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/gyroscope.jpg" alt="Editor" width="300"></div>
+<div align=center><img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/gyroscope.jpg" alt="Editor" width="500"></div>
 
 Once the user picks up the phone(or makes the position of the phone change), the countdown will be paused and there will be "DON'T MOVE" message appeared on the screen.
 
