@@ -13,7 +13,7 @@ First of all, enter the start screen, set up the countdown, start the countdown 
 
 首先进入开始界面，设定倒计时的时长，开始倒计时的同时，App会记录当前手机的位置。
 
-<img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/start.PNG" alt="Editor" width="300">
+<div align=center><img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/start.PNG" alt="Editor" width="300">
 
 The phone will monitor the rotation in three directions as image, and if it exceeds a certain value then the user will be considered as he/she has picked up the phone.
 
@@ -21,7 +21,7 @@ The phone will monitor the rotation in three directions as image, and if it exce
 
 手机会如图监测三个方向的旋转，如果超过一定数值则判断使用者拿起手机。
 
-<img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/gyroscope.jpg" alt="Editor" width="300">
+<div align=center><img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/gyroscope.jpg" alt="Editor" width="300">
 
 Once the user picks up the phone(or makes the position of the phone change), the countdown will be paused and there will be "DON'T MOVE" message appeared on the screen.
 
@@ -29,7 +29,7 @@ Once the user picks up the phone(or makes the position of the phone change), the
 
 如果使用者被判断为拿起了手机或者改变了手机的位置，倒计时会自动停止并在屏幕上显示“不要动”的信息。
 
-<img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/don't_move.PNG" alt="Editor" width="300">
+<div align=center><img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/don't_move.PNG" alt="Editor" width="300">
 
 When a countdown is completed, it will tell the user that you have completed and show the number of completions with a dot at the bottom of "Today".
 
@@ -37,4 +37,4 @@ When a countdown is completed, it will tell the user that you have completed and
 
 当完成一个倒计时后，会告诉使用者你已完成一次倒地时，并在下方today处用“点”的图样显示完成次数。
 
-<img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/you_made_it.PNG" alt="Editor" width="300">
+<div align=center><img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/you_made_it.PNG" alt="Editor" width="300">
