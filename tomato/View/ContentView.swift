@@ -18,7 +18,7 @@ struct ContentView: View {
             VStack {
                 Slider(
                     value: $speed,
-                    in: 10...60,
+                    in: 1...60,
                     step: 1,
                     onEditingChanged: { editing in
                         tomato.endRun()
@@ -28,7 +28,7 @@ struct ContentView: View {
                     Circle()
                         .fill(Color.white)
                         .frame(width: 250, height: 250)
-                    if !tomato.isFinish && !tomato.isRun {
+                    if !tomato.isFinish && !tomato.isRun && !tomato.isMove {
                         HStack {
                             Text(String(Int(speed)))
                             Text(":")
@@ -41,7 +41,9 @@ struct ContentView: View {
                             Text(":")
                             Text(String(format: "%.2d", tomato.nowTime % 60))
                         }
-                        
+                    }
+                    else if tomato.isMove {
+                        Text("DON'T MOVE")
                     }
                     else {
                         Text("YOU MADE IT!")

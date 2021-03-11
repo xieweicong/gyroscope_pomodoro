@@ -15,6 +15,7 @@ class TomatoTimer: MotionModel, ObservableObject {
     var isRun: Bool
     @Published var count: Int = 0
     @Published var isFinish: Bool
+    @Published var isMove: Bool = false
     
     
     init(startTime: Int) {
@@ -27,18 +28,25 @@ class TomatoTimer: MotionModel, ObservableObject {
     func startRun() {
         objectWillChange.send()
         isRun = true
+        isMove = false
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true){ tempTimer in
             if self.nowTime > 0 {
-                self.startGyroUpdates(self.endRun)
+                self.startGyroUpdates(self.movePhone)
                 self.nowTime -= 1
             }
             else {
                 self.isFinish = true
+                self.isRun = false
                 self.count += 1
                 self.timer?.invalidate()
                 self.timer = nil
             }
         }
+    }
+    
+    func movePhone() {
+        isMove = true
+        endRun()
     }
     
     func endRun() {
