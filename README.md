@@ -8,7 +8,7 @@ This is a simple tomato clock app based on using the function of gyroscope to mo
 First of all, enter the start screen, set up the countdown, start the countdown and the current position of the phone will be recorded.
 まず、スタート画面に入り、カウントダウンを設定し、カウントダウンを開始すると、携帯電話の現在位置が記録されます。
 首先进入开始界面，设定倒计时的时长，开始倒计时的同时，App会记录当前手机的位置。
-![image](https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/start.PNG)
+<img src="https://github.com/xieweicong/gyroscope_pomodoro/blob/main/image/start.PNG" alt="Editor" width="500">
 
 The phone will monitor the rotation in three directions as image, and if it exceeds a certain value then the user will be considered as he/she has picked up the phone.
 携帯電話は3方向の回転を監視し、それがある値を超えた場合、ユーザーは携帯電話を動かしたとみなされます。
